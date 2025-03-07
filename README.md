@@ -35,11 +35,12 @@ The original guide has the right instructions in terms of pinouts, but it's easy
 
 5. Flashing the Firmware
 
-There were two issues here that diverged from the build guide. There were solved on Carlo's PC but not on the lab PCs. When we build the next version we need to document what was done to resolve them. The issues are:
+There were two issues here that diverged from the build guide. We installed all the necessary dependencies and tools in the LabAdmin account on the computer on the left next to the window.
 
-- QMKVia which torn v3 uses is no longer supported. How did we solve this?
-- in the Makefile the `make torn default` recipe doesn't work and needed to be fixed up
+- QMKVia which torn v3 uses is no longer supported. We don't have a solution for this, as the support for it its dropped and requires manual intervention and investigation as mentioned in the author isse https://github.com/rtitmuss/torn/issues/29
+
+- The make command to be run from the qmk_firmware folder is ```make torn:default:flash``` as opposed to the guide. Keyboard must be set to flashing mode.
 
 6. Configuration
 
-A C file was used to configure the keyboard. This could be improved by adding a wrapper. Any alterations require compiling and flashing to the chip, which could complicate things though
+- A C file is used to configure the keyboard [keymap file](https://github.com/qmk/qmk_firmware/blob/master/keyboards/torn/keymaps/default/keymap.c). This could be improved by adding a wrapper. Any alterations require compiling and flashing to the chip, which could complicate things though
