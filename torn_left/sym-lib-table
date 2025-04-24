@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name torn_left-rescue)(type Legacy)(uri ${KIPRJMOD}/torn_left-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "torn_left-rescue")(type "KiCad")(uri "${KIPRJMOD}/torn_left-rescue.kicad_sym")(options "")(descr ""))
 )
