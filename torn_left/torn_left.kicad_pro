@@ -60,6 +60,14 @@
       ],
       "drc_exclusions": [
         [
+          "lib_footprint_mismatch|176774000|105171000|00000000-0000-0000-0000-00005f51f516|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|176774000|67183000|00000000-0000-0000-0000-00005f51f901|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "silk_overlap|123886900|84600499|2c88cd9f-b51b-4b76-82b3-18b3384269e2|4ebf11be-ba9c-4f05-90db-da771bab8596",
           ""
         ]
@@ -816,12 +824,42 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field4",
+          "name": "Field4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Display",
+          "name": "Display",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
