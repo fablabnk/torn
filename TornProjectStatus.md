@@ -1,3 +1,33 @@
+# Next Steps: First Build of New PCB
+
+With view to hosting a 'workshop' where we build three or four more
+
+1. Soldering
+	- take a 
+
+	everything or focus on microcontroller/display first
+
+2. Flashing
+	- is flashing process documented
+	- bootloader
+	- firmware
+	- keep dedicated flashing setup on hand
+3. Configuration
+	- Learning how to use Via
+4. Casemaking	
+
+Rotary encoders, primarily used for:
+- Scrolling (vertical or horizontal in documents/web pages)
+- Undo/redo
+- Zoom in/out
+- Tab or window switching
+- Launching macros or custom shortcuts.
+
+# How Does Via Work
+- Keys are organised in categories - can be character or functions
+- Layers at Tip Left
+- Keys show both click and hold functions
+
 # Next Steps
 - meet again at 17:30
 - goal to decide on a clear way for configuring the keyboard
@@ -9,12 +39,12 @@
 	- set build day (or two days)
 
 # Status
-
 - Two halves basically work
 - Display glitches
 - Main top three rows of keys work on each side
 - Bottom function keys are not properly working
 - USB C connector is a pain to solder (considering rolling back to usb mini)
+
 
 # To Do
 
@@ -25,8 +55,10 @@
 - Solve display glitching issue
 	- probably hardware related as we tested with another half which doesn't glitch
 
-- add this line to build-guide.md
+- Add this line to build-guide.md
 	- In order to call 'make' the qmk cli has to be installed. Follow the instructions [here](https://docs.qmk.fm/newbs_getting_started).
+
+- Understand why it doesn't (always) connect straight away or wake from sleep - hardware or software issue?
 
 # Questions
 
@@ -68,18 +100,6 @@ Layers do work e.g.
 	- goes into lower mode when held 
 
 Note: KC_TRNS or _______ means to look down to the next layer for the underlying function of the key
-
-# Build/Testing Stages
-
-1. Soldering
-
-2. Flashing
-	- bootloader
-	- firmware
-
-3. Remapping
-
-4. Casemaking
 
 # Remapping
 
