@@ -9074,7 +9074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CUI_SJ-43514"
+		(property "Footprint" "footprints:PJ-320A"
 			(at 92.71 114.3 0)
 			(effects
 				(font

@@ -58,19 +58,19 @@
           ""
         ],
         [
-          "starved_thermal|123721500|139836200|00000000-0000-0000-0000-00005f6c554a|e08c7fe7-2c25-4cf9-87c5-9418db72df6d|F.Cu",
+          "starved_thermal|123721500|139836200|2d07a1fb-6fae-4eca-a812-71f72a0a23d4|e08c7fe7-2c25-4cf9-87c5-9418db72df6d|F.Cu",
           ""
         ],
         [
-          "starved_thermal|180871500|87896700|00000000-0000-0000-0000-00005f6c554a|6d3cc6f4-119d-4d5f-97a6-40de65c84924|F.Cu",
+          "starved_thermal|180871500|87896700|2d07a1fb-6fae-4eca-a812-71f72a0a23d4|6d3cc6f4-119d-4d5f-97a6-40de65c84924|F.Cu",
           ""
         ],
         [
-          "starved_thermal|60198000|111506000|00000000-0000-0000-0000-00005f6c554a|4b175570-9bd5-4f20-9e3d-a480967dbf42|F.Cu",
+          "starved_thermal|60198000|111506000|2d07a1fb-6fae-4eca-a812-71f72a0a23d4|4b175570-9bd5-4f20-9e3d-a480967dbf42|F.Cu",
           ""
         ],
         [
-          "starved_thermal|60198000|111506000|00000000-0000-0000-0000-00005f6c554d|4b175570-9bd5-4f20-9e3d-a480967dbf42|B.Cu",
+          "starved_thermal|60198000|111506000|70f34e3f-3e47-42e9-a5d1-29f7cac489d7|4b175570-9bd5-4f20-9e3d-a480967dbf42|B.Cu",
           ""
         ]
       ],
@@ -477,6 +477,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
